@@ -9,6 +9,12 @@ const morgan = require('morgan');
 
 const app = express();
 
+// --- Public Route ---
+app.get("/home", (req, res) => {
+  res.json({
+    msg: "Hi 👋 I'm from Express app — publicly accessible route"
+  });
+});
 
 // --- Route Imports ---
 // Ensure each of these files exists and correctly exports an Express Router

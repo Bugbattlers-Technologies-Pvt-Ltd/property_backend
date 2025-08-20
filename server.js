@@ -12,7 +12,7 @@ const app = express();
 // --- Public Route ---
 app.get("/home", (req, res) => {
   res.json({
-    msg: "Hi 👋 I'm from Express app — publicly accessible route"
+    msg: "Hi 👋Welcome to property management"
   });
 });
 

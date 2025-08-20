@@ -103,7 +103,7 @@ app.use('/api/employee', employeeRoutes);
 
 // --- Health Check Endpoint ---
 app.get('/health', (req, res) => {
-  res.status(200).json({ message: 'Server  is running on Jenkins!' });
+  res.status(200).json({ message: 'Server  is running on Jenkins for node!' });
 });
 
 
